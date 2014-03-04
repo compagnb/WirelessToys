@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="LVB-YS-i5n">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="CtS-rA-C9T">
+            <objects>
+                <viewController id="LVB-YS-i5n" customClass="XYZViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tVP-3v-UwQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cmv-KS-EMX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bdc-N1-crn" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hDd-mN-6f3">
+                                <rect key="frame" x="20" y="546" width="280" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="xCu-wU-wvZ">
+                                <rect key="frame" x="113" y="506" width="94" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <action selector="myStepperPressed:" destination="LVB-YS-i5n" eventType="valueChanged" id="YV7-Jb-7B0"/>
+                                </connections>
+                            </stepper>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xCu-wU-wvZ" firstAttribute="centerX" secondItem="hDd-mN-6f3" secondAttribute="centerX" id="4hi-3P-4qX"/>
+                            <constraint firstItem="hDd-mN-6f3" firstAttribute="leading" secondItem="bdc-N1-crn" secondAttribute="leading" constant="20" symbolic="YES" id="8kn-14-b5R"/>
+                            <constraint firstItem="hDd-mN-6f3" firstAttribute="top" secondItem="xCu-wU-wvZ" secondAttribute="bottom" constant="11" id="Kuq-7B-bYs"/>
+                            <constraint firstItem="xCu-wU-wvZ" firstAttribute="top" relation="lessThanOrEqual" secondItem="tVP-3v-UwQ" secondAttribute="bottom" constant="506" id="hsY-3p-BGE"/>
+                            <constraint firstAttribute="bottom" secondItem="hDd-mN-6f3" secondAttribute="bottom" constant="20" symbolic="YES" id="mVy-Vb-h1y"/>
+                            <constraint firstItem="xCu-wU-wvZ" firstAttribute="centerX" secondItem="bdc-N1-crn" secondAttribute="centerX" id="vog-Pw-pcK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myProgressView" destination="hDd-mN-6f3" id="5dC-BN-gOC"/>
+                        <outlet property="myStepperValue" destination="xCu-wU-wvZ" id="FsK-dh-8KF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="btX-cZ-eVz" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <nil key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -28,6 +28,7 @@
 		33BF884518CBC974001CC9A0 /* lvl2Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF884418CBC974001CC9A0 /* lvl2Scene.m */; };
 		33BF884818CBC97F001CC9A0 /* lvl3Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF884718CBC97F001CC9A0 /* lvl3Scene.m */; };
 		33BF884B18CBC98B001CC9A0 /* lvl4Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF884A18CBC98B001CC9A0 /* lvl4Scene.m */; };
+		33BF884E18CBD86C001CC9A0 /* lvl5Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF884D18CBD86C001CC9A0 /* lvl5Scene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		33BF884718CBC97F001CC9A0 /* lvl3Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lvl3Scene.m; sourceTree = "<group>"; };
 		33BF884918CBC98B001CC9A0 /* lvl4Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvl4Scene.h; sourceTree = "<group>"; };
 		33BF884A18CBC98B001CC9A0 /* lvl4Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lvl4Scene.m; sourceTree = "<group>"; };
+		33BF884C18CBD86C001CC9A0 /* lvl5Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvl5Scene.h; sourceTree = "<group>"; };
+		33BF884D18CBD86C001CC9A0 /* lvl5Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lvl5Scene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,8 @@
 				33BF884718CBC97F001CC9A0 /* lvl3Scene.m */,
 				33BF884918CBC98B001CC9A0 /* lvl4Scene.h */,
 				33BF884A18CBC98B001CC9A0 /* lvl4Scene.m */,
+				33BF884C18CBD86C001CC9A0 /* lvl5Scene.h */,
+				33BF884D18CBD86C001CC9A0 /* lvl5Scene.m */,
 				33BF882118CBC8A3001CC9A0 /* Spaceship.png */,
 				33BF882318CBC8A3001CC9A0 /* Images.xcassets */,
 				33BF880D18CBC8A3001CC9A0 /* Supporting Files */,
@@ -283,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33BF882018CBC8A3001CC9A0 /* lvl0Scene.m in Sources */,
+				33BF884E18CBD86C001CC9A0 /* lvl5Scene.m in Sources */,
 				33BF884818CBC97F001CC9A0 /* lvl3Scene.m in Sources */,
 				33BF881D18CBC8A3001CC9A0 /* ViewController.m in Sources */,
 				33BF881718CBC8A3001CC9A0 /* AppDelegate.m in Sources */,

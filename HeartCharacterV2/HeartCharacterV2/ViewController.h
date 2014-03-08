@@ -11,4 +11,13 @@
 
 @interface ViewController : UIViewController
 
+//Declare stepper button
+@property (weak, nonatomic) IBOutlet UIStepper *myStepperValue;
+
+//Declare the stepper action - changing value
+- (IBAction)myStepperPressed:(UIStepper *)sender;
+
+//Declare progress bar
+@property (weak, nonatomic) IBOutlet UIProgressView *lvlProgressbar;
+
 @end

@@ -1,18 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4451" systemVersion="13A461" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="LVB-YS-i5n">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="LVB-YS-i5n">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3676"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="CtS-rA-C9T">
             <objects>
                 <viewController id="LVB-YS-i5n" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a76-sF-RFc"/>
+                        <viewControllerLayoutGuide type="bottom" id="5kN-sP-LsR"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bdc-N1-crn" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3Ru-yq-4zc">
+                                <rect key="frame" x="20" y="512" width="280" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </progressView>
+                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="yiT-FO-eXR">
+                                <rect key="frame" x="206" y="470" width="94" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <color key="tintColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="myStepperPressed:" destination="LVB-YS-i5n" eventType="valueChanged" id="GUW-0f-sjM"/>
+                                </connections>
+                            </stepper>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="yiT-FO-eXR" secondAttribute="trailing" constant="20" symbolic="YES" id="FUE-ko-akz"/>
+                            <constraint firstItem="3Ru-yq-4zc" firstAttribute="trailing" secondItem="yiT-FO-eXR" secondAttribute="trailing" id="cFg-F7-ldW"/>
+                            <constraint firstItem="3Ru-yq-4zc" firstAttribute="top" secondItem="yiT-FO-eXR" secondAttribute="bottom" constant="13" id="l8T-cM-wg2"/>
+                            <constraint firstItem="3Ru-yq-4zc" firstAttribute="leading" secondItem="bdc-N1-crn" secondAttribute="leading" constant="20" symbolic="YES" id="mp4-EU-IHr"/>
+                            <constraint firstItem="5kN-sP-LsR" firstAttribute="top" secondItem="3Ru-yq-4zc" secondAttribute="bottom" constant="54" id="nFE-Dj-K1d"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lvlProgressbar" destination="3Ru-yq-4zc" id="qyW-u9-Ie2"/>
+                        <outlet property="myStepperValue" destination="yiT-FO-eXR" id="svS-Qu-itL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="btX-cZ-eVz" sceneMemberID="firstResponder"/>
             </objects>

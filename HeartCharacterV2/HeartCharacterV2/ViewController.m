@@ -1,13 +1,18 @@
 //
 //  ViewController.m
-//  HeartCharacterV2
+//  HeartCharacterV2 "Surf is up!!!"
 //
 //  Created by compagnb on 3/8/14.
 //  Copyright (c) 2014 compagnb. All rights reserved.
 //
 
+//link files
 #import "ViewController.h"
-#import "MyScene.h"
+//#import "MyScene.h"
+#import "lvl1Scene.h"
+#import "lvl2Scene.h"
+#import "lvl3Scene.h"
+#import "lvl4Scene.h"
 
 @implementation ViewController
 

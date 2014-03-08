@@ -24,6 +24,10 @@
 		33BF882D18CBC8A3001CC9A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF880818CBC8A3001CC9A0 /* UIKit.framework */; };
 		33BF883518CBC8A3001CC9A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33BF883318CBC8A3001CC9A0 /* InfoPlist.strings */; };
 		33BF883718CBC8A3001CC9A0 /* HeartCharacterV2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF883618CBC8A3001CC9A0 /* HeartCharacterV2Tests.m */; };
+		33BF884218CBC962001CC9A0 /* lvl1Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF884118CBC962001CC9A0 /* lvl1Scene.m */; };
+		33BF884518CBC974001CC9A0 /* lvl2Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF884418CBC974001CC9A0 /* lvl2Scene.m */; };
+		33BF884818CBC97F001CC9A0 /* lvl3Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF884718CBC97F001CC9A0 /* lvl3Scene.m */; };
+		33BF884B18CBC98B001CC9A0 /* lvl4Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF884A18CBC98B001CC9A0 /* lvl4Scene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,14 @@
 		33BF883218CBC8A3001CC9A0 /* HeartCharacterV2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeartCharacterV2Tests-Info.plist"; sourceTree = "<group>"; };
 		33BF883418CBC8A3001CC9A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		33BF883618CBC8A3001CC9A0 /* HeartCharacterV2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartCharacterV2Tests.m; sourceTree = "<group>"; };
+		33BF884018CBC962001CC9A0 /* lvl1Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvl1Scene.h; sourceTree = "<group>"; };
+		33BF884118CBC962001CC9A0 /* lvl1Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lvl1Scene.m; sourceTree = "<group>"; };
+		33BF884318CBC974001CC9A0 /* lvl2Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvl2Scene.h; sourceTree = "<group>"; };
+		33BF884418CBC974001CC9A0 /* lvl2Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lvl2Scene.m; sourceTree = "<group>"; };
+		33BF884618CBC97F001CC9A0 /* lvl3Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvl3Scene.h; sourceTree = "<group>"; };
+		33BF884718CBC97F001CC9A0 /* lvl3Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lvl3Scene.m; sourceTree = "<group>"; };
+		33BF884918CBC98B001CC9A0 /* lvl4Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvl4Scene.h; sourceTree = "<group>"; };
+		33BF884A18CBC98B001CC9A0 /* lvl4Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lvl4Scene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +140,14 @@
 				33BF881C18CBC8A3001CC9A0 /* ViewController.m */,
 				33BF881E18CBC8A3001CC9A0 /* MyScene.h */,
 				33BF881F18CBC8A3001CC9A0 /* MyScene.m */,
+				33BF884018CBC962001CC9A0 /* lvl1Scene.h */,
+				33BF884118CBC962001CC9A0 /* lvl1Scene.m */,
+				33BF884318CBC974001CC9A0 /* lvl2Scene.h */,
+				33BF884418CBC974001CC9A0 /* lvl2Scene.m */,
+				33BF884618CBC97F001CC9A0 /* lvl3Scene.h */,
+				33BF884718CBC97F001CC9A0 /* lvl3Scene.m */,
+				33BF884918CBC98B001CC9A0 /* lvl4Scene.h */,
+				33BF884A18CBC98B001CC9A0 /* lvl4Scene.m */,
 				33BF882118CBC8A3001CC9A0 /* Spaceship.png */,
 				33BF882318CBC8A3001CC9A0 /* Images.xcassets */,
 				33BF880D18CBC8A3001CC9A0 /* Supporting Files */,
@@ -263,8 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				33BF882018CBC8A3001CC9A0 /* MyScene.m in Sources */,
+				33BF884818CBC97F001CC9A0 /* lvl3Scene.m in Sources */,
 				33BF881D18CBC8A3001CC9A0 /* ViewController.m in Sources */,
 				33BF881718CBC8A3001CC9A0 /* AppDelegate.m in Sources */,
+				33BF884218CBC962001CC9A0 /* lvl1Scene.m in Sources */,
+				33BF884518CBC974001CC9A0 /* lvl2Scene.m in Sources */,
+				33BF884B18CBC98B001CC9A0 /* lvl4Scene.m in Sources */,
 				33BF881318CBC8A3001CC9A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

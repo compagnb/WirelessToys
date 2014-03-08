@@ -29,6 +29,12 @@
 		33BF884818CBC97F001CC9A0 /* lvl3Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF884718CBC97F001CC9A0 /* lvl3Scene.m */; };
 		33BF884B18CBC98B001CC9A0 /* lvl4Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF884A18CBC98B001CC9A0 /* lvl4Scene.m */; };
 		33BF884E18CBD86C001CC9A0 /* lvl5Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF884D18CBD86C001CC9A0 /* lvl5Scene.m */; };
+		33BF885518CBDB0A001CC9A0 /* lvl4Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 33BF884F18CBDB0A001CC9A0 /* lvl4Images.atlas */; };
+		33BF885618CBDB0A001CC9A0 /* lvl1Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 33BF885018CBDB0A001CC9A0 /* lvl1Images.atlas */; };
+		33BF885718CBDB0A001CC9A0 /* lvl2Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 33BF885118CBDB0A001CC9A0 /* lvl2Images.atlas */; };
+		33BF885818CBDB0A001CC9A0 /* lvl5Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 33BF885218CBDB0A001CC9A0 /* lvl5Images.atlas */; };
+		33BF885918CBDB0A001CC9A0 /* lvl3Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 33BF885318CBDB0A001CC9A0 /* lvl3Images.atlas */; };
+		33BF885A18CBDB0A001CC9A0 /* lvl0Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 33BF885418CBDB0A001CC9A0 /* lvl0Images.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +81,12 @@
 		33BF884A18CBC98B001CC9A0 /* lvl4Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lvl4Scene.m; sourceTree = "<group>"; };
 		33BF884C18CBD86C001CC9A0 /* lvl5Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvl5Scene.h; sourceTree = "<group>"; };
 		33BF884D18CBD86C001CC9A0 /* lvl5Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lvl5Scene.m; sourceTree = "<group>"; };
+		33BF884F18CBDB0A001CC9A0 /* lvl4Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = lvl4Images.atlas; sourceTree = "<group>"; };
+		33BF885018CBDB0A001CC9A0 /* lvl1Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = lvl1Images.atlas; sourceTree = "<group>"; };
+		33BF885118CBDB0A001CC9A0 /* lvl2Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = lvl2Images.atlas; sourceTree = "<group>"; };
+		33BF885218CBDB0A001CC9A0 /* lvl5Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = lvl5Images.atlas; sourceTree = "<group>"; };
+		33BF885318CBDB0A001CC9A0 /* lvl3Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = lvl3Images.atlas; sourceTree = "<group>"; };
+		33BF885418CBDB0A001CC9A0 /* lvl0Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = lvl0Images.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +148,12 @@
 		33BF880C18CBC8A3001CC9A0 /* HeartCharacterV2 */ = {
 			isa = PBXGroup;
 			children = (
+				33BF884F18CBDB0A001CC9A0 /* lvl4Images.atlas */,
+				33BF885018CBDB0A001CC9A0 /* lvl1Images.atlas */,
+				33BF885118CBDB0A001CC9A0 /* lvl2Images.atlas */,
+				33BF885218CBDB0A001CC9A0 /* lvl5Images.atlas */,
+				33BF885318CBDB0A001CC9A0 /* lvl3Images.atlas */,
+				33BF885418CBDB0A001CC9A0 /* lvl0Images.atlas */,
 				33BF881518CBC8A3001CC9A0 /* AppDelegate.h */,
 				33BF881618CBC8A3001CC9A0 /* AppDelegate.m */,
 				33BF881818CBC8A3001CC9A0 /* Main.storyboard */,
@@ -265,9 +283,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33BF885718CBDB0A001CC9A0 /* lvl2Images.atlas in Resources */,
 				33BF881118CBC8A3001CC9A0 /* InfoPlist.strings in Resources */,
+				33BF885518CBDB0A001CC9A0 /* lvl4Images.atlas in Resources */,
 				33BF882418CBC8A3001CC9A0 /* Images.xcassets in Resources */,
+				33BF885818CBDB0A001CC9A0 /* lvl5Images.atlas in Resources */,
+				33BF885A18CBDB0A001CC9A0 /* lvl0Images.atlas in Resources */,
 				33BF882218CBC8A3001CC9A0 /* Spaceship.png in Resources */,
+				33BF885618CBDB0A001CC9A0 /* lvl1Images.atlas in Resources */,
+				33BF885918CBDB0A001CC9A0 /* lvl3Images.atlas in Resources */,
 				33BF881A18CBC8A3001CC9A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,7 +16,7 @@
 		33BF881718CBC8A3001CC9A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF881618CBC8A3001CC9A0 /* AppDelegate.m */; };
 		33BF881A18CBC8A3001CC9A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BF881818CBC8A3001CC9A0 /* Main.storyboard */; };
 		33BF881D18CBC8A3001CC9A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF881C18CBC8A3001CC9A0 /* ViewController.m */; };
-		33BF882018CBC8A3001CC9A0 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF881F18CBC8A3001CC9A0 /* MyScene.m */; };
+		33BF882018CBC8A3001CC9A0 /* lvl0Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF881F18CBC8A3001CC9A0 /* lvl0Scene.m */; };
 		33BF882218CBC8A3001CC9A0 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 33BF882118CBC8A3001CC9A0 /* Spaceship.png */; };
 		33BF882418CBC8A3001CC9A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BF882318CBC8A3001CC9A0 /* Images.xcassets */; };
 		33BF882B18CBC8A3001CC9A0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF882A18CBC8A3001CC9A0 /* XCTest.framework */; };
@@ -55,8 +55,8 @@
 		33BF881918CBC8A3001CC9A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33BF881B18CBC8A3001CC9A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		33BF881C18CBC8A3001CC9A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		33BF881E18CBC8A3001CC9A0 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
-		33BF881F18CBC8A3001CC9A0 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		33BF881E18CBC8A3001CC9A0 /* lvl0Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lvl0Scene.h; sourceTree = "<group>"; };
+		33BF881F18CBC8A3001CC9A0 /* lvl0Scene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lvl0Scene.m; sourceTree = "<group>"; };
 		33BF882118CBC8A3001CC9A0 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		33BF882318CBC8A3001CC9A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		33BF882918CBC8A3001CC9A0 /* HeartCharacterV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartCharacterV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,8 +138,8 @@
 				33BF881818CBC8A3001CC9A0 /* Main.storyboard */,
 				33BF881B18CBC8A3001CC9A0 /* ViewController.h */,
 				33BF881C18CBC8A3001CC9A0 /* ViewController.m */,
-				33BF881E18CBC8A3001CC9A0 /* MyScene.h */,
-				33BF881F18CBC8A3001CC9A0 /* MyScene.m */,
+				33BF881E18CBC8A3001CC9A0 /* lvl0Scene.h */,
+				33BF881F18CBC8A3001CC9A0 /* lvl0Scene.m */,
 				33BF884018CBC962001CC9A0 /* lvl1Scene.h */,
 				33BF884118CBC962001CC9A0 /* lvl1Scene.m */,
 				33BF884318CBC974001CC9A0 /* lvl2Scene.h */,
@@ -282,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33BF882018CBC8A3001CC9A0 /* MyScene.m in Sources */,
+				33BF882018CBC8A3001CC9A0 /* lvl0Scene.m in Sources */,
 				33BF884818CBC97F001CC9A0 /* lvl3Scene.m in Sources */,
 				33BF881D18CBC8A3001CC9A0 /* ViewController.m in Sources */,
 				33BF881718CBC8A3001CC9A0 /* AppDelegate.m in Sources */,

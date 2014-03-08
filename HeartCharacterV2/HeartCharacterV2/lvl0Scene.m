@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 compagnb. All rights reserved.
 //
 
-#import "MyScene.h"
+#import "lvl0Scene.h"
 
-@implementation MyScene
+@implementation lvl0Scene
 
 -(id)initWithSize:(CGSize)size {    
     if (self = [super initWithSize:size]) {

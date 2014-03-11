@@ -10,4 +10,23 @@
 
 @implementation lvl5Scene
 
+-(id)initWithSize:(CGSize)size {
+    if (self = [super initWithSize:size]) {
+        /* Setup your scene here */
+        
+        self.backgroundColor = [SKColor blueColor];
+        
+        SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Helvetica"];
+        
+        myLabel.text = @"Stroke Alert!";
+        myLabel.fontSize = 30;
+        myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
+                                       CGRectGetMidY(self.frame));
+        
+        [self addChild:myLabel];
+    }
+    return self;
+}
+
+
 @end

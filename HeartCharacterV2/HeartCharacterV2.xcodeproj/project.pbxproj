@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3350A2A318CE92DB00FFBE95 /* lvl1Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3350A2A218CE92DB00FFBE95 /* lvl1Images.atlas */; };
+		3350A2A518CE95E800FFBE95 /* lvl3Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3350A2A418CE95E800FFBE95 /* lvl3Images.atlas */; };
 		33BF880518CBC8A3001CC9A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF880418CBC8A3001CC9A0 /* Foundation.framework */; };
 		33BF880718CBC8A3001CC9A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF880618CBC8A3001CC9A0 /* CoreGraphics.framework */; };
 		33BF880918CBC8A3001CC9A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BF880818CBC8A3001CC9A0 /* UIKit.framework */; };
@@ -30,11 +32,10 @@
 		33BF884B18CBC98B001CC9A0 /* lvl4Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF884A18CBC98B001CC9A0 /* lvl4Scene.m */; };
 		33BF884E18CBD86C001CC9A0 /* lvl5Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF884D18CBD86C001CC9A0 /* lvl5Scene.m */; };
 		33BF885518CBDB0A001CC9A0 /* lvl4Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 33BF884F18CBDB0A001CC9A0 /* lvl4Images.atlas */; };
-		33BF885618CBDB0A001CC9A0 /* lvl1Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 33BF885018CBDB0A001CC9A0 /* lvl1Images.atlas */; };
 		33BF885818CBDB0A001CC9A0 /* lvl5Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 33BF885218CBDB0A001CC9A0 /* lvl5Images.atlas */; };
-		33BF885918CBDB0A001CC9A0 /* lvl3Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 33BF885318CBDB0A001CC9A0 /* lvl3Images.atlas */; };
 		33BF885A18CBDB0A001CC9A0 /* lvl0Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 33BF885418CBDB0A001CC9A0 /* lvl0Images.atlas */; };
 		33BF885C18CBDE1C001CC9A0 /* lvl2Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 33BF885B18CBDE1C001CC9A0 /* lvl2Images.atlas */; };
+		33F9D80E18CEA3350036F2DC /* shark.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F9D80D18CEA3350036F2DC /* shark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3350A2A218CE92DB00FFBE95 /* lvl1Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = lvl1Images.atlas; sourceTree = "<group>"; };
+		3350A2A418CE95E800FFBE95 /* lvl3Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = lvl3Images.atlas; sourceTree = "<group>"; };
 		33BF880118CBC8A3001CC9A0 /* HeartCharacterV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartCharacterV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BF880418CBC8A3001CC9A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		33BF880618CBC8A3001CC9A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,11 +85,10 @@
 		33BF884C18CBD86C001CC9A0 /* lvl5Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvl5Scene.h; sourceTree = "<group>"; };
 		33BF884D18CBD86C001CC9A0 /* lvl5Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lvl5Scene.m; sourceTree = "<group>"; };
 		33BF884F18CBDB0A001CC9A0 /* lvl4Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = lvl4Images.atlas; sourceTree = "<group>"; };
-		33BF885018CBDB0A001CC9A0 /* lvl1Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = lvl1Images.atlas; sourceTree = "<group>"; };
 		33BF885218CBDB0A001CC9A0 /* lvl5Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = lvl5Images.atlas; sourceTree = "<group>"; };
-		33BF885318CBDB0A001CC9A0 /* lvl3Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = lvl3Images.atlas; sourceTree = "<group>"; };
 		33BF885418CBDB0A001CC9A0 /* lvl0Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = lvl0Images.atlas; sourceTree = "<group>"; };
 		33BF885B18CBDE1C001CC9A0 /* lvl2Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = lvl2Images.atlas; sourceTree = "<group>"; };
+		33F9D80D18CEA3350036F2DC /* shark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,11 +150,11 @@
 		33BF880C18CBC8A3001CC9A0 /* HeartCharacterV2 */ = {
 			isa = PBXGroup;
 			children = (
+				3350A2A418CE95E800FFBE95 /* lvl3Images.atlas */,
+				3350A2A218CE92DB00FFBE95 /* lvl1Images.atlas */,
 				33BF885B18CBDE1C001CC9A0 /* lvl2Images.atlas */,
 				33BF884F18CBDB0A001CC9A0 /* lvl4Images.atlas */,
-				33BF885018CBDB0A001CC9A0 /* lvl1Images.atlas */,
 				33BF885218CBDB0A001CC9A0 /* lvl5Images.atlas */,
-				33BF885318CBDB0A001CC9A0 /* lvl3Images.atlas */,
 				33BF885418CBDB0A001CC9A0 /* lvl0Images.atlas */,
 				33BF881518CBC8A3001CC9A0 /* AppDelegate.h */,
 				33BF881618CBC8A3001CC9A0 /* AppDelegate.m */,
@@ -169,6 +171,7 @@
 				33BF884718CBC97F001CC9A0 /* lvl3Scene.m */,
 				33BF884918CBC98B001CC9A0 /* lvl4Scene.h */,
 				33BF884A18CBC98B001CC9A0 /* lvl4Scene.m */,
+				33F9D80D18CEA3350036F2DC /* shark.png */,
 				33BF884C18CBD86C001CC9A0 /* lvl5Scene.h */,
 				33BF884D18CBD86C001CC9A0 /* lvl5Scene.m */,
 				33BF882118CBC8A3001CC9A0 /* Spaceship.png */,
@@ -287,11 +290,12 @@
 				33BF885518CBDB0A001CC9A0 /* lvl4Images.atlas in Resources */,
 				33BF882418CBC8A3001CC9A0 /* Images.xcassets in Resources */,
 				33BF885C18CBDE1C001CC9A0 /* lvl2Images.atlas in Resources */,
+				3350A2A518CE95E800FFBE95 /* lvl3Images.atlas in Resources */,
 				33BF885818CBDB0A001CC9A0 /* lvl5Images.atlas in Resources */,
 				33BF885A18CBDB0A001CC9A0 /* lvl0Images.atlas in Resources */,
+				3350A2A318CE92DB00FFBE95 /* lvl1Images.atlas in Resources */,
 				33BF882218CBC8A3001CC9A0 /* Spaceship.png in Resources */,
-				33BF885618CBDB0A001CC9A0 /* lvl1Images.atlas in Resources */,
-				33BF885918CBDB0A001CC9A0 /* lvl3Images.atlas in Resources */,
+				33F9D80E18CEA3350036F2DC /* shark.png in Resources */,
 				33BF881A18CBC8A3001CC9A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,6 +534,7 @@
 				33BF883C18CBC8A3001CC9A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33BF883D18CBC8A3001CC9A0 /* Build configuration list for PBXNativeTarget "HeartCharacterV2Tests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +543,7 @@
 				33BF883F18CBC8A3001CC9A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

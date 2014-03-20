@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F873F353-31E9-433D-9604-66EE22313A9F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HeartCharacterV2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D5FA70AD-7FCE-4382-8B6E-5CA7AE6CCE8F</key>
+		<string>https://github.com/compagnb/WirelessToys.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HeartCharacterV2/HeartCharacterV2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D5FA70AD-7FCE-4382-8B6E-5CA7AE6CCE8F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/compagnb/WirelessToys.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D5FA70AD-7FCE-4382-8B6E-5CA7AE6CCE8F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D5FA70AD-7FCE-4382-8B6E-5CA7AE6CCE8F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WirelessToys</string>
+		</dict>
+	</array>
+</dict>
+</plist>

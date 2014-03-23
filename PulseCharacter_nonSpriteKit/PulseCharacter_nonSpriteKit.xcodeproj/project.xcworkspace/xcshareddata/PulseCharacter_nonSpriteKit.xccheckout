@@ -5,24 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C88FA4B5-586A-47B6-92F7-E29DA2405210</string>
+	<string>EF8E65E4-CC2E-44B0-9795-8BAA5CF8B795</string>
 	<key>IDESourceControlProjectName</key>
-	<string>heartWith_Image</string>
+	<string>PulseCharacter_nonSpriteKit</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1ABEB99F-C57F-48BB-A988-9E8440AC6D2F</key>
 		<string>https://github.com/compagnb/WirelessToys.git</string>
-		<key>6F7FF94F-F082-45BB-891A-3D73A9F0F1AC</key>
-		<string>https://github.com/WorldFamousElectronics/PulseSensor_BLE_Open_App.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>heartWith_Image/heartWith_Image.xcodeproj/project.xcworkspace</string>
+	<string>PulseCharacter_nonSpriteKit/PulseCharacter_nonSpriteKit.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1ABEB99F-C57F-48BB-A988-9E8440AC6D2F</key>
 		<string>../../..</string>
-		<key>6F7FF94F-F082-45BB-891A-3D73A9F0F1AC</key>
-		<string>../../../../../../Desktop/With_Image_OverLay_Example</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/compagnb/WirelessToys.git</string>
@@ -39,14 +35,6 @@
 			<string>1ABEB99F-C57F-48BB-A988-9E8440AC6D2F</string>
 			<key>IDESourceControlWCCName</key>
 			<string>WirelessToys</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6F7FF94F-F082-45BB-891A-3D73A9F0F1AC</string>
-			<key>IDESourceControlWCCName</key>
-			<string>With_Image_OverLay_Example</string>
 		</dict>
 	</array>
 </dict>

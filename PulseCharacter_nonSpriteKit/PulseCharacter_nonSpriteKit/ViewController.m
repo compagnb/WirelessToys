@@ -1,9 +1,9 @@
 //
 //  ViewController.m
-//  PulseSensor_BLE_Open_App
+//  PulseCharacter_nonSpriteKit
 //
-//  Created by GrownYoda on 3/19/14.
-//  Copyright (c) 2014 YuryGitman. All rights reserved.
+//  Created by compagnb on 3/23/14.
+//  Copyright (c) 2014 compagnb. All rights reserved.
 //
 
 #import "ViewController.h"

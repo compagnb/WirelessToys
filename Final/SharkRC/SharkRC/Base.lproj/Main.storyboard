@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <development version="4600" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Analog: x, y" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POe-Ti-7ok">
+                                <rect key="frame" x="20" y="20" width="280" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t3k-ua-mDB" customClass="JSAnalogueStick">
+                                <rect key="frame" x="78" y="174" width="150" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="RSSI:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QTb-Ge-2dP">
+                                <rect key="frame" x="20" y="507" width="129" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="129" id="KEV-7H-AGv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcu-39-pcN">
+                                <rect key="frame" x="216" y="485" width="84" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Connect">
+                                    <color key="titleColor" red="0.90057146929999998" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="CJL-V1-u8Z">
+                                <rect key="frame" x="248" y="457" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wcu-39-pcN" firstAttribute="top" secondItem="CJL-V1-u8Z" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="5Vb-ah-TUP"/>
+                            <constraint firstAttribute="trailing" secondItem="t3k-ua-mDB" secondAttribute="trailing" constant="92" id="6nB-X0-Z9Q"/>
+                            <constraint firstAttribute="trailing" secondItem="POe-Ti-7ok" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="7kT-6b-3jd"/>
+                            <constraint firstItem="POe-Ti-7ok" firstAttribute="leading" secondItem="QTb-Ge-2dP" secondAttribute="leading" type="default" id="8kd-MU-URZ"/>
+                            <constraint firstAttribute="bottom" secondItem="QTb-Ge-2dP" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="FC4-Lm-aZg"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="t3k-ua-mDB" secondAttribute="trailing" constant="92" type="user" id="GAC-hc-cFo"/>
+                            <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="t3k-ua-mDB" secondAttribute="bottom" constant="224" type="user" id="IUW-ML-mqN"/>
+                            <constraint firstItem="CJL-V1-u8Z" firstAttribute="centerX" secondItem="wcu-39-pcN" secondAttribute="centerX" type="default" id="MOp-uv-v15"/>
+                            <constraint firstItem="QTb-Ge-2dP" firstAttribute="bottom" secondItem="wcu-39-pcN" secondAttribute="bottom" type="default" id="NnZ-D7-dTL"/>
+                            <constraint firstItem="t3k-ua-mDB" firstAttribute="top" secondItem="3" secondAttribute="top" constant="174" id="OhH-US-twO"/>
+                            <constraint firstItem="t3k-ua-mDB" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="78" id="cSc-Sy-WdT"/>
+                            <constraint firstItem="t3k-ua-mDB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="3" secondAttribute="leading" constant="78" type="user" id="pVQ-le-h1C"/>
+                            <constraint firstItem="t3k-ua-mDB" firstAttribute="top" relation="lessThanOrEqual" secondItem="3" secondAttribute="top" constant="174" type="user" id="s87-c6-4pu"/>
+                            <constraint firstItem="POe-Ti-7ok" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="uyj-vv-0qM"/>
+                            <constraint firstItem="POe-Ti-7ok" firstAttribute="trailing" secondItem="wcu-39-pcN" secondAttribute="trailing" type="default" id="x0D-bl-SSs"/>
+                            <constraint firstAttribute="bottom" secondItem="t3k-ua-mDB" secondAttribute="bottom" constant="224" id="y0f-mj-2dk"/>
+                            <constraint firstItem="POe-Ti-7ok" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="y6z-4g-0CW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="analogStick" destination="t3k-ua-mDB" id="abt-WW-RTv"/>
+                        <outlet property="analogTextLabel" destination="POe-Ti-7ok" id="q8o-wg-U5Y"/>
+                        <outlet property="btnConnect" destination="wcu-39-pcN" id="PDM-Xn-ZXW"/>
+                        <outlet property="connectButton" destination="wcu-39-pcN" id="g9c-52-idG"/>
+                        <outlet property="indConnecting" destination="CJL-V1-u8Z" id="zHE-Ve-Sms"/>
+                        <outlet property="lblRSSI" destination="QTb-Ge-2dP" id="i7L-hu-xTe"/>
+                        <outlet property="rssiLabel" destination="QTb-Ge-2dP" id="bBu-bX-aBA"/>
+                        <outlet property="test" destination="CJL-V1-u8Z" id="dbp-rJ-KdX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33129B3E190C5FE000597776 /* analogue_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 33129B3A190C5FE000597776 /* analogue_bg.png */; };
+		33129B3F190C5FE000597776 /* analogue_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33129B3B190C5FE000597776 /* analogue_bg@2x.png */; };
+		33129B40190C5FE000597776 /* analogue_handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 33129B3C190C5FE000597776 /* analogue_handle.png */; };
+		33129B41190C5FE000597776 /* analogue_handle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33129B3D190C5FE000597776 /* analogue_handle@2x.png */; };
+		33129B44190C6E5300597776 /* JSAnalogStick.m in Sources */ = {isa = PBXBuildFile; fileRef = 33129B43190C6E5300597776 /* JSAnalogStick.m */; };
+		335F1968190C449300BCF403 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335F1967190C449300BCF403 /* Foundation.framework */; };
+		335F196A190C449300BCF403 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335F1969190C449300BCF403 /* CoreGraphics.framework */; };
+		335F196C190C449300BCF403 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335F196B190C449300BCF403 /* UIKit.framework */; };
+		335F1972190C449300BCF403 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 335F1970190C449300BCF403 /* InfoPlist.strings */; };
+		335F1974190C449300BCF403 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 335F1973190C449300BCF403 /* main.m */; };
+		335F1978190C449300BCF403 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 335F1977190C449300BCF403 /* AppDelegate.m */; };
+		335F197B190C449300BCF403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335F1979190C449300BCF403 /* Main.storyboard */; };
+		335F197E190C449300BCF403 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335F197D190C449300BCF403 /* ViewController.m */; };
+		335F1980190C449300BCF403 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335F197F190C449300BCF403 /* Images.xcassets */; };
+		335F1987190C449300BCF403 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335F1986190C449300BCF403 /* XCTest.framework */; };
+		335F1988190C449300BCF403 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335F1967190C449300BCF403 /* Foundation.framework */; };
+		335F1989190C449300BCF403 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335F196B190C449300BCF403 /* UIKit.framework */; };
+		335F1991190C449300BCF403 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 335F198F190C449300BCF403 /* InfoPlist.strings */; };
+		335F1993190C449300BCF403 /* SharkRCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 335F1992190C449300BCF403 /* SharkRCTests.m */; };
+		335F19A3190C451100BCF403 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 335F19A1190C451100BCF403 /* BLE.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		335F198A190C449300BCF403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 335F195C190C449300BCF403 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335F1963190C449300BCF403;
+			remoteInfo = SharkRC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33129B3A190C5FE000597776 /* analogue_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analogue_bg.png; path = joyStickImages/analogue_bg.png; sourceTree = "<group>"; };
+		33129B3B190C5FE000597776 /* analogue_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "analogue_bg@2x.png"; path = "joyStickImages/analogue_bg@2x.png"; sourceTree = "<group>"; };
+		33129B3C190C5FE000597776 /* analogue_handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analogue_handle.png; path = joyStickImages/analogue_handle.png; sourceTree = "<group>"; };
+		33129B3D190C5FE000597776 /* analogue_handle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "analogue_handle@2x.png"; path = "joyStickImages/analogue_handle@2x.png"; sourceTree = "<group>"; };
+		33129B42190C6E5300597776 /* JSAnalogStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAnalogStick.h; sourceTree = "<group>"; };
+		33129B43190C6E5300597776 /* JSAnalogStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAnalogStick.m; sourceTree = "<group>"; };
+		335F1964190C449300BCF403 /* SharkRC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharkRC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		335F1967190C449300BCF403 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		335F1969190C449300BCF403 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		335F196B190C449300BCF403 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		335F196F190C449300BCF403 /* SharkRC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SharkRC-Info.plist"; sourceTree = "<group>"; };
+		335F1971190C449300BCF403 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		335F1973190C449300BCF403 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		335F1975190C449300BCF403 /* SharkRC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SharkRC-Prefix.pch"; sourceTree = "<group>"; };
+		335F1976190C449300BCF403 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		335F1977190C449300BCF403 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		335F197A190C449300BCF403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		335F197C190C449300BCF403 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		335F197D190C449300BCF403 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		335F197F190C449300BCF403 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		335F1985190C449300BCF403 /* SharkRCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharkRCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		335F1986190C449300BCF403 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		335F198E190C449300BCF403 /* SharkRCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SharkRCTests-Info.plist"; sourceTree = "<group>"; };
+		335F1990190C449300BCF403 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		335F1992190C449300BCF403 /* SharkRCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharkRCTests.m; sourceTree = "<group>"; };
+		335F19A0190C451100BCF403 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		335F19A1190C451100BCF403 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		335F19A2190C451100BCF403 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		335F1961190C449300BCF403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335F196A190C449300BCF403 /* CoreGraphics.framework in Frameworks */,
+				335F196C190C449300BCF403 /* UIKit.framework in Frameworks */,
+				335F1968190C449300BCF403 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335F1982190C449300BCF403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335F1987190C449300BCF403 /* XCTest.framework in Frameworks */,
+				335F1989190C449300BCF403 /* UIKit.framework in Frameworks */,
+				335F1988190C449300BCF403 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		335F195B190C449300BCF403 = {
+			isa = PBXGroup;
+			children = (
+				335F196D190C449300BCF403 /* SharkRC */,
+				335F198C190C449300BCF403 /* SharkRCTests */,
+				335F1966190C449300BCF403 /* Frameworks */,
+				335F1965190C449300BCF403 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		335F1965190C449300BCF403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				335F1964190C449300BCF403 /* SharkRC.app */,
+				335F1985190C449300BCF403 /* SharkRCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		335F1966190C449300BCF403 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				335F199F190C451100BCF403 /* BLE_Framework */,
+				335F1967190C449300BCF403 /* Foundation.framework */,
+				335F1969190C449300BCF403 /* CoreGraphics.framework */,
+				335F196B190C449300BCF403 /* UIKit.framework */,
+				335F1986190C449300BCF403 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		335F196D190C449300BCF403 /* SharkRC */ = {
+			isa = PBXGroup;
+			children = (
+				33129B42190C6E5300597776 /* JSAnalogStick.h */,
+				33129B43190C6E5300597776 /* JSAnalogStick.m */,
+				33129B3A190C5FE000597776 /* analogue_bg.png */,
+				33129B3B190C5FE000597776 /* analogue_bg@2x.png */,
+				33129B3C190C5FE000597776 /* analogue_handle.png */,
+				33129B3D190C5FE000597776 /* analogue_handle@2x.png */,
+				335F1976190C449300BCF403 /* AppDelegate.h */,
+				335F1977190C449300BCF403 /* AppDelegate.m */,
+				335F1979190C449300BCF403 /* Main.storyboard */,
+				335F197C190C449300BCF403 /* ViewController.h */,
+				335F197D190C449300BCF403 /* ViewController.m */,
+				335F197F190C449300BCF403 /* Images.xcassets */,
+				335F196E190C449300BCF403 /* Supporting Files */,
+			);
+			path = SharkRC;
+			sourceTree = "<group>";
+		};
+		335F196E190C449300BCF403 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				335F196F190C449300BCF403 /* SharkRC-Info.plist */,
+				335F1970190C449300BCF403 /* InfoPlist.strings */,
+				335F1973190C449300BCF403 /* main.m */,
+				335F1975190C449300BCF403 /* SharkRC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		335F198C190C449300BCF403 /* SharkRCTests */ = {
+			isa = PBXGroup;
+			children = (
+				335F1992190C449300BCF403 /* SharkRCTests.m */,
+				335F198D190C449300BCF403 /* Supporting Files */,
+			);
+			path = SharkRCTests;
+			sourceTree = "<group>";
+		};
+		335F198D190C449300BCF403 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				335F198E190C449300BCF403 /* SharkRCTests-Info.plist */,
+				335F198F190C449300BCF403 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		335F199F190C451100BCF403 /* BLE_Framework */ = {
+			isa = PBXGroup;
+			children = (
+				335F19A0190C451100BCF403 /* BLE.h */,
+				335F19A1190C451100BCF403 /* BLE.m */,
+				335F19A2190C451100BCF403 /* BLEDefines.h */,
+			);
+			path = BLE_Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		335F1963190C449300BCF403 /* SharkRC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335F1996190C449300BCF403 /* Build configuration list for PBXNativeTarget "SharkRC" */;
+			buildPhases = (
+				335F1960190C449300BCF403 /* Sources */,
+				335F1961190C449300BCF403 /* Frameworks */,
+				335F1962190C449300BCF403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharkRC;
+			productName = SharkRC;
+			productReference = 335F1964190C449300BCF403 /* SharkRC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		335F1984190C449300BCF403 /* SharkRCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335F1999190C449300BCF403 /* Build configuration list for PBXNativeTarget "SharkRCTests" */;
+			buildPhases = (
+				335F1981190C449300BCF403 /* Sources */,
+				335F1982190C449300BCF403 /* Frameworks */,
+				335F1983190C449300BCF403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				335F198B190C449300BCF403 /* PBXTargetDependency */,
+			);
+			name = SharkRCTests;
+			productName = SharkRCTests;
+			productReference = 335F1985190C449300BCF403 /* SharkRCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		335F195C190C449300BCF403 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = compagnb;
+				TargetAttributes = {
+					335F1984190C449300BCF403 = {
+						TestTargetID = 335F1963190C449300BCF403;
+					};
+				};
+			};
+			buildConfigurationList = 335F195F190C449300BCF403 /* Build configuration list for PBXProject "SharkRC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 335F195B190C449300BCF403;
+			productRefGroup = 335F1965190C449300BCF403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				335F1963190C449300BCF403 /* SharkRC */,
+				335F1984190C449300BCF403 /* SharkRCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		335F1962190C449300BCF403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335F1980190C449300BCF403 /* Images.xcassets in Resources */,
+				33129B3F190C5FE000597776 /* analogue_bg@2x.png in Resources */,
+				33129B41190C5FE000597776 /* analogue_handle@2x.png in Resources */,
+				335F1972190C449300BCF403 /* InfoPlist.strings in Resources */,
+				33129B3E190C5FE000597776 /* analogue_bg.png in Resources */,
+				335F197B190C449300BCF403 /* Main.storyboard in Resources */,
+				33129B40190C5FE000597776 /* analogue_handle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335F1983190C449300BCF403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335F1991190C449300BCF403 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335F1960190C449300BCF403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335F197E190C449300BCF403 /* ViewController.m in Sources */,
+				335F1978190C449300BCF403 /* AppDelegate.m in Sources */,
+				335F1974190C449300BCF403 /* main.m in Sources */,
+				335F19A3190C451100BCF403 /* BLE.m in Sources */,
+				33129B44190C6E5300597776 /* JSAnalogStick.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335F1981190C449300BCF403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335F1993190C449300BCF403 /* SharkRCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		335F198B190C449300BCF403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335F1963190C449300BCF403 /* SharkRC */;
+			targetProxy = 335F198A190C449300BCF403 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		335F1970190C449300BCF403 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335F1971190C449300BCF403 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		335F1979190C449300BCF403 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335F197A190C449300BCF403 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		335F198F190C449300BCF403 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335F1990190C449300BCF403 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		335F1994190C449300BCF403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		335F1995190C449300BCF403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		335F1997190C449300BCF403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SharkRC/SharkRC-Prefix.pch";
+				INFOPLIST_FILE = "SharkRC/SharkRC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		335F1998190C449300BCF403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SharkRC/SharkRC-Prefix.pch";
+				INFOPLIST_FILE = "SharkRC/SharkRC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		335F199A190C449300BCF403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SharkRC.app/SharkRC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SharkRC/SharkRC-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SharkRCTests/SharkRCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		335F199B190C449300BCF403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SharkRC.app/SharkRC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SharkRC/SharkRC-Prefix.pch";
+				INFOPLIST_FILE = "SharkRCTests/SharkRCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		335F195F190C449300BCF403 /* Build configuration list for PBXProject "SharkRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335F1994190C449300BCF403 /* Debug */,
+				335F1995190C449300BCF403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335F1996190C449300BCF403 /* Build configuration list for PBXNativeTarget "SharkRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335F1997190C449300BCF403 /* Debug */,
+				335F1998190C449300BCF403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335F1999190C449300BCF403 /* Build configuration list for PBXNativeTarget "SharkRCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335F199A190C449300BCF403 /* Debug */,
+				335F199B190C449300BCF403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 335F195C190C449300BCF403 /* Project object */;
+}

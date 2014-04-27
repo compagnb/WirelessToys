@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>EC4DBF3C-CE93-49FE-B43A-4235D78E2FEC</string>
+	<string>77E036E4-D420-466E-A6CA-91F8CAD19FC0</string>
 	<key>IDESourceControlProjectName</key>
-	<string>heartWith_Image</string>
+	<string>BLE_Various_Servo_Controls</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>408F321B-1841-493C-859C-F41CA388044E</key>
 		<string>https://github.com/compagnb/WirelessToys.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>heartWith_Image/heartWith_Image.xcodeproj/project.xcworkspace</string>
+	<string>Shark Adrian Brody/BLE_Various_Servo_Controls.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>408F321B-1841-493C-859C-F41CA388044E</key>
